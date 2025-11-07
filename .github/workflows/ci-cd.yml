@@ -45,7 +45,7 @@ jobs:
         run: mvn -B clean compile --file pom.xml
 
       - name: Run tests
-        run: mvn -B test --file pom.xml
+        run: mvn -B test --file pom.xml -Dspring.profiles.active=test
 
       - name: Package application
         run: mvn -B package -DskipTests --file pom.xml
