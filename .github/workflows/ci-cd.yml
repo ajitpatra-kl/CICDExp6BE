@@ -57,7 +57,7 @@ jobs:
           path: target/*.war
           retention-days: 1
 
-  # Job 2: Build and Push Docker Image
+  # Job 2: Build and Push Docker 
   docker-build-push:
     name: Build and Push Docker Image
     runs-on: ubuntu-latest
