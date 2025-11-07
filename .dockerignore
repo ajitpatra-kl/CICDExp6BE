@@ -1,0 +1,53 @@
+# Maven build artifacts
+target/
+!target/*.jar
+!target/*.war
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.settings/
+.classpath
+.project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+coverage/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+*~
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# CI/CD
+.github/
+
+# Documentation
+README.md
+*.md
+docs/
